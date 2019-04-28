@@ -1,0 +1,8 @@
+<div>
+  <button class="inc" {{action this.decrement}}> - </button>
+  Count: {{this.count}}
+  <button class="dec" {{action this.increment}}> + </button>
+  {{#if this.isMax}}
+    <div class="alert"> Max Value Reached! </div>
+  {{/if}}
+</div>
