@@ -2,7 +2,7 @@
   <button class="dec"> - </button>
     Count: 0
   <button class="inc"> + </button>
-  <div>
+  <div class="alert">
     Maximum value reached
   </div>
 </div>
