@@ -1,4 +1,4 @@
-#app {
+#counter {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -7,23 +7,23 @@
   margin-top: 60px;
 }
 
-div, button {
+#counter div, button {
   font-size: 40px;
 }
 
-button {
+#counter button {
   padding: 5px 20px;
   border-radius: 3px;
   color: white;
-  background: #F44336;
+  background: green;
   margin: 0 5px;
 }
 
-button.dec {
-  background: green;
+#counter button.dec {
+  background: #F44336;
 }
 
-.alert {
+#counter .alert {
   margin: 25px;
   font-weight: bold;
 }
