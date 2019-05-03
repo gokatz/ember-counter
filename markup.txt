@@ -1,0 +1,8 @@
+<div id="counter">
+  <button class="dec"> - </button>
+    Count: 0
+  <button class="inc"> + </button>
+  <div>
+    Maximum value reached
+  </div>
+</div>
